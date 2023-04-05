@@ -1,0 +1,60 @@
+h1 {
+    text-align: center;
+    }
+    
+    .form {
+    width: 50%;
+    padding: 2rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    
+    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1),
+    0 1px 2px 0 rgba(0, 0, 0, 0, 0.06);
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    background-color: #f0f0f0;
+    }
+    
+    .form-label {
+    display: block;
+    margin-bottom: 0.5rem;
+    
+    color: #333;
+    }
+    
+    .form-button {
+        width: 100%;
+        padding: 0.75rem;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        margin-left: auto;
+        margin-right: auto;   
+        margin-top: 1rem; /* aggiunto per centrare verticalmente il bottone */
+        outline: none;
+        background: #2b91ba;
+        color: #fff;
+        box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1),
+            0 1px 2px 0 rgba(0, 0, 0, 0.06);
+    }
+
+    .form-input {
+        width: 90%;
+        padding: 0.75rem;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        margin-right:auto;    
+        margin-left:auto;
+        outline: none;
+
+        }
+    
+    
+    .form input:focus {
+    box-shadow: 0 0 0 2px #2b91ba;
+    }
+
+    .form-button:hover {
+        background-color: #267293; /* cambiare il colore di sfondo quando l'utente passa sopra il bottone */
+        cursor: pointer; /* cambiare il cursore del mouse quando l'utente passa sopra il bottone */
+    }
